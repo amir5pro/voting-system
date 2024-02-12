@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #CDF5FD;
+}
+
+.admin_login{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 50px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.a_hawassa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.a_top{
+    display: flex;
+    align-items: center;
+}
+.a_logo{
+    height: 40px;
+    width:40px;
+}
+.a_inner{
+    color: #0077B5;
+}
+.a_home>p>a{
+    color: #0077B5;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.a_home>p>a:hover{
+    text-decoration: underline;
+}
+.admin_inner{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.a_form{
+    padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a_form>h1{
+    color:#0077B5;
+}
+.a_form>p{
+    margin: 15px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+    border: 1px solid #0077B5;
+    width:300px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    margin-top: 20px;
+    outline-color: #0077B5;
+}
+.a_btn{
+    margin-top: 30px;
+    border: none;
+    width: 330px;
+    height: 40px;
+    background-color: #0077B5;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.a_btn:hover{
+    background-color: #3cb0fd;
+}
